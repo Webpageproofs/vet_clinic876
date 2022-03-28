@@ -79,7 +79,10 @@ textarea:focus::placeholder { opacity: 0; -webkit-transition: opacity 0.8s ease;
 
 .logo-menu__nav { width: 100%; margin-right: 20px; }
 
-.logo-menu__contacts { padding-top: 5px; }
+.logo-menu__contacts { padding-top: 5px;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: flex-end; }
 
 .logo-menu__tel { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: start; }
 
