@@ -127,7 +127,7 @@ textarea:focus::placeholder { opacity: 0; -webkit-transition: opacity 0.8s ease;
 
 .social { color: #991d58; }
 
-.social a { -webkit-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; padding-top: 10px; padding-right: 10px;padding-bottom: 10px;}
+.social a { -webkit-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s; padding-top: 10px; padding-right: 20px;padding-bottom: 10px;}
 
 .social a:hover { color: #991d58; }
 
